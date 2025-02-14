@@ -1,0 +1,28 @@
+# RP2040 IoT System - Dokumentacja
+
+## 1. Wymagania
+- Raspberry Pi Pico W
+- Kompilator `arm-none-eabi-gcc`
+- `CMake`, `Make`
+- Pico SDK
+
+## 2. Instalacja
+1. Pobierz repozytorium i przejdź do katalogu:
+   ```
+   git clone https://github.com/user/RP2040_IoT_System.git
+   cd RP2040_IoT_System
+   ```
+
+2. Skonfiguruj SDK i skompiluj:
+   ```
+   cmake ..
+   make
+   ```
+
+3. Wgraj plik `.uf2` na Pico W.
+
+## 3. Funkcje systemu
+- Automatyczne łączenie się z Wi-Fi
+- Serwer HTTP z konfiguracją Wi-Fi
+- MQTT do wymiany danych
+- WebSockety do sterowania w czasie rzeczywistym
